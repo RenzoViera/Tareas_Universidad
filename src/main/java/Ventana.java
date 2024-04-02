@@ -102,7 +102,7 @@ public class Ventana extends JFrame {
         buscarArchivo.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Ordenamiento.seleccionarArchivo(textareaA,textareaE,textareaI,textareaO,textareaU, Ventana.this);
+                Ordenamiento.seleccionarArchivo(textareaA,textareaE,textareaI,textareaO,textareaU);
                 logger.debug("Buscando el archivo");
 
             }

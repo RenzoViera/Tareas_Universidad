@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 public class Ordenamiento {
     private static final Logger logger = LogManager.getLogger();
 
-    public static void seleccionarArchivo(JTextArea textareaA, JTextArea textareaE, JTextArea textareaI, JTextArea textareaO, JTextArea textareaU, Ventana ventana) {
+    public static void seleccionarArchivo(JTextArea textareaA, JTextArea textareaE, JTextArea textareaI, JTextArea textareaO, JTextArea textareaU) {
 
         /*
             Abre un buscador de archivos
